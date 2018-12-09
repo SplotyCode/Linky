@@ -16,6 +16,34 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>de.splotycode.davidlib.startup.Main</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>1.6</version>
+                <configuration>
+                    <createDependencyReducedPom>false</createDependencyReducedPom>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 
@@ -23,6 +51,11 @@
         <dependency>
             <groupId>me.david.davidlib</groupId>
             <artifactId>WebApi</artifactId>
+            <version>1.9.9</version>
+        </dependency>
+        <dependency>
+            <groupId>me.david.davidlib</groupId>
+            <artifactId>StartUp</artifactId>
             <version>1.9.9</version>
         </dependency>
     </dependencies>

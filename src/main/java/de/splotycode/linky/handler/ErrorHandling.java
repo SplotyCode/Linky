@@ -2,7 +2,7 @@ package de.splotycode.linky.handler;
 
 import me.david.davidlib.utils.ExceptionUtil;
 import me.david.webapi.response.Response;
-import me.david.webapi.response.content.FileResponseContent;
+import me.david.webapi.response.content.file.FileResponseContent;
 import me.david.webapi.response.error.ErrorFactory;
 
 import java.io.FileNotFoundException;
