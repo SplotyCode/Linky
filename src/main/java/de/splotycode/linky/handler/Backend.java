@@ -1,13 +1,13 @@
 package de.splotycode.linky.handler;
 
-import me.david.webapi.handler.anotation.check.Handler;
-import me.david.webapi.handler.anotation.check.Mapping;
-import me.david.webapi.handler.anotation.handle.RequiredGet;
-import me.david.webapi.handler.anotation.handle.UrlParam;
-import me.david.webapi.response.Response;
-import me.david.webapi.response.content.ResponseContent;
-import me.david.webapi.response.content.file.CachedStaticFileContent;
-import me.david.webapi.response.content.file.FileResponseContent;
+import io.github.splotycode.mosaik.webapi.handler.anotation.check.Handler;
+import io.github.splotycode.mosaik.webapi.handler.anotation.check.Mapping;
+import io.github.splotycode.mosaik.webapi.handler.anotation.handle.RequiredGet;
+import io.github.splotycode.mosaik.webapi.handler.anotation.handle.UrlParam;
+import io.github.splotycode.mosaik.webapi.response.Response;
+import io.github.splotycode.mosaik.webapi.response.content.ResponseContent;
+import io.github.splotycode.mosaik.webapi.response.content.file.CachedStaticFileContent;
+import io.github.splotycode.mosaik.webapi.response.content.file.FileResponseContent;
 
 import java.util.HashMap;
 import java.util.concurrent.atomic.AtomicLong;

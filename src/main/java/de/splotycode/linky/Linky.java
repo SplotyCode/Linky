@@ -1,13 +1,13 @@
 package de.splotycode.linky;
 
 import de.splotycode.linky.handler.ErrorHandling;
-import me.david.davidlib.application.Application;
-import me.david.davidlib.startup.BootContext;
-import me.david.webapi.WebApplicationType;
-import me.david.webapi.config.WebConfig;
-import me.david.webapi.response.content.file.CachedStaticFileContent;
-import me.david.webapi.server.AbstractWebServer;
-import me.david.webapi.server.netty.NettyWebServer;
+import io.github.splotycode.mosaik.runtime.application.Application;
+import io.github.splotycode.mosaik.runtime.startup.BootContext;
+import io.github.splotycode.mosaik.webapi.WebApplicationType;
+import io.github.splotycode.mosaik.webapi.config.WebConfig;
+import io.github.splotycode.mosaik.webapi.response.content.file.CachedStaticFileContent;
+import io.github.splotycode.mosaik.webapi.server.AbstractWebServer;
+import io.github.splotycode.mosaik.webapi.server.netty.NettyWebServer;
 
 public class Linky extends Application implements WebApplicationType {
 

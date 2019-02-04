@@ -49,14 +49,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>me.david.davidlib</groupId>
-            <artifactId>WebApi</artifactId>
-            <version>1.9.9</version>
-        </dependency>
-        <dependency>
-            <groupId>me.david.davidlib</groupId>
-            <artifactId>StartUp</artifactId>
-            <version>1.9.9</version>
+            <groupId>io.github.splotycode.mosaik</groupId>
+            <artifactId>Mosaik-All</artifactId>
+            <version>2.2.6.4</version>
         </dependency>
     </dependencies>
     
